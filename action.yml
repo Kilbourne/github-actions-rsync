@@ -12,6 +12,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.user-and-host }}
+    - ${{ inputs.user_and_host }}
     - ${{ inputs.dest }}
-    - ${{ inputs.rsync-options }}
+    - ${{ inputs.rsync_options }}
