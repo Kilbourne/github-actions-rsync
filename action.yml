@@ -2,11 +2,11 @@
 name: 'Deploy with rsync'
 description: 'Deploy with rsync'
 inputs:
-  user-and-host:
+  user_and_host:
     required: true
   dest:
     required: true
-  rsync-options:
+  rsync_options:
     required: true
 runs:
   using: 'docker'
